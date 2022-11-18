@@ -1,7 +1,35 @@
 {
-  "name": "ap92-sprite-viewer",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@ap92/sprite-viewer",
+  "version": "0.2.0",
+  "description": "Viewer for previewing sprites in the AP92-schema JSON format.",
+  "author": {
+    "name": "Andi Emma Davies",
+    "email": "andi@stackinabox.co.uk",
+    "url": "https://www.github.com/andiemmadavies"
+  },
+  "bugs": {
+    "email": "andi@stackinabox.co.uk"
+  },
+  "keywords": [
+    "ap92",
+    "amateurpanda92",
+    "siab",
+    "stackinabox",
+    "stack-in-a-box",
+    "sprite",
+    "sprites",
+    "viewer",
+    "game",
+    "games",
+    "graphic",
+    "graphics",
+    "tile",
+    "tiles",
+    "palette",
+    "palettes",
+    "pixel",
+    "pixels"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,8 +41,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.3",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
