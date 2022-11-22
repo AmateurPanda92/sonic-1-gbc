@@ -1,9 +1,10 @@
 import Heading from "Components/Heading";
+import Paragraph from "Components/Paragraph";
 
 const App = () => (
     <>
         <Heading level={1} emoji="🔎" copy="AmateurPanda92 Sprite Viewer" />
-        <p>Hello, spritey world!</p>
+        <Paragraph copy="Hello, spritey world!" />
     </>
 );
 
