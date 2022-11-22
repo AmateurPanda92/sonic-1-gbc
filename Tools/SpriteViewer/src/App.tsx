@@ -1,6 +1,8 @@
+import Heading from "Components/Heading";
+
 const App = () => (
     <>
-        <h1>AmateurPanda92 Sprite Viewer</h1>
+        <Heading level={1} emoji="🔎" copy="AmateurPanda92 Sprite Viewer" />
         <p>Hello, spritey world!</p>
     </>
 );

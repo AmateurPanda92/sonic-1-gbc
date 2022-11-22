@@ -1,0 +1,8 @@
+.heading {
+    $margin: 0.2em;
+
+    &::before, &::after { content: attr(data-emoji); }
+
+    &::before { margin-right: $margin; }
+    &::after { margin-left: $margin; }
+}

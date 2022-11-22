@@ -1,6 +1,6 @@
 {
   "name": "@ap92/sprite-viewer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Viewer for previewing sprites in the AP92-schema JSON format.",
   "author": {
     "name": "Andi Emma Davies",
