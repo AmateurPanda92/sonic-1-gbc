@@ -2,20 +2,22 @@
   "name": "@ap92/sprite-viewer",
   "version": "0.3.1",
   "description": "Viewer for previewing sprites in the AP92-schema JSON format.",
+  "private": true,
   "author": {
     "name": "Andi Emma Davies",
     "email": "andi@stackinabox.co.uk",
     "url": "https://www.github.com/andiemmadavies"
   },
-  "bugs": {
-    "email": "andi@stackinabox.co.uk"
-  },
+  "bugs": { "email": "andi@stackinabox.co.uk" },
   "keywords": [
     "ap92",
     "amateurpanda92",
     "siab",
     "stackinabox",
     "stack-in-a-box",
+    "json",
+    "asset",
+    "assets",
     "sprite",
     "sprites",
     "viewer",

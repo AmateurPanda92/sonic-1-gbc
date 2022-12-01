@@ -1,0 +1,44 @@
+{
+  "name": "@ap92/asset-server",
+  "version": "0.1.0",
+  "description": "A simple HTTP server for delivering local AP92-schema JSON fomat asset files over localhost.",
+  "private": true,
+  "author": {
+    "name": "Andi Emma Davies",
+    "email": "andi@stackinabox.co.uk",
+    "url": "https://www.github.com/andiemmadavies"
+  },
+  "bugs": {
+    "email": "andi@stackinabox.co.uk"
+  },
+  "keywords": [
+    "ap92",
+    "amateurpanda92",
+    "siab",
+    "stackinabox",
+    "stack-in-a-box",
+    "json",
+    "asset",
+    "assets",
+    "server",
+    "http",
+    "sprite",
+    "sprites",
+    "viewer",
+    "game",
+    "games",
+    "graphic",
+    "graphics",
+    "tile",
+    "tiles",
+    "palette",
+    "palettes",
+    "pixel",
+    "pixels"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
