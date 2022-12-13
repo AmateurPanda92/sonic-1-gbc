@@ -9,3 +9,4 @@
 [ ] Refactor reading config out into a separate file (with strong typing, validation, and the like).
 [ ] Move the schema data model into its own project.
 [ ] The data model project should generate a JSON schema from the TS source that can be strongly referenced from the JSON data files.
+[ ] Investigate whether woutervh-/typescript-is, YousefED/typescript-json-schema, and/or ajv-validator/ajv could benefit this project.
