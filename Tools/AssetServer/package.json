@@ -1,6 +1,6 @@
 {
   "name": "@ap92/asset-server",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple HTTP server for delivering local AP92-schema JSON fomat asset files over localhost.",
   "private": true,
   "author": {
@@ -39,18 +39,17 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install && npx tsc",
-    "start": "npm run build && node build/index",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/index\""
+    "start": "npm run build && node build/index"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "@types/dotenv-defaults": "^2.0.1",
     "@types/express": "^4.17.14",
     "@types/node": "^18.11.10",
-    "concurrently": "^7.6.0",
-    "nodemon": "^2.0.20",
+    "dotenv-defaults": "^5.0.2",
     "typescript": "^4.9.3"
   }
 }
