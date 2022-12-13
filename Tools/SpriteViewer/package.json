@@ -8,7 +8,9 @@
     "email": "andi@stackinabox.co.uk",
     "url": "https://www.github.com/andiemmadavies"
   },
-  "bugs": { "email": "andi@stackinabox.co.uk" },
+  "bugs": {
+    "email": "andi@stackinabox.co.uk"
+  },
   "keywords": [
     "ap92",
     "amateurpanda92",

@@ -39,6 +39,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customise it when you are ready for it.
 
+## Configuration
+
+If you need to override any of the default environment variables defined in `.env`, you can do so by creating a `.env.local` file (which will be ignored by Git). Default env vars will be read from `.env` _unless_ a corresponding override can be found in `.env.local`. Only the env vars specified in `.env.local` will be overridden — the rest will be loaded from `.env`.
+
 ## Learn more
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
